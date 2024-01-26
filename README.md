@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full-Stack-Airbnb-Next
 
-## Getting Started
+This is a full-stack web application that replicates the functionality and design of Airbnb, using Next.js, React, Tailwind CSS, MongoDB and Node.js
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- User authentication with Mongo DB
+- Search for places to stay by location, date, and number of guests
+- Filter results by price range and room type
+- View place details, photos, and location on a map
+- Book a place and see your bookings on your profile page
+- Responsive design with Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can see a live demo of the app here: [Full-Stack-Airbnb-Next]
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+To run the app locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository and cd into the project directory
+2. Install the dependencies with `npm install`
+3. Create a Mongo DB project enable authentication and Storage services
+4. Copy the mongo config and paste it in the .env file
+5. Run the app in development mode with `npm run dev`
+6. Open http://localhost:3000 to view it in the browser
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE] file for details
