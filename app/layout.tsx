@@ -2,7 +2,6 @@ import { Nunito } from "next/font/google";
 import Navbar from "@/app/components/navbar/Navbar";
 import "./globals.css";
 import ClientOnly from "./components/ClientOnly";
-import Modal from "./components/modals/Modal";
 import RegisterModal from "./components/modals/RegisterModal";
 
 export const metadata = {
